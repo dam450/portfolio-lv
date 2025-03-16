@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-50: oklch(85.92% 0.0632 159.15);
+    --color-primary-100: oklch(80.72% 0.0829 160.27);
+    --color-primary-150: oklch(75.45% 0.0987 161);
+    --color-primary-200: oklch(70.59% 0.1128 161.61);
+    --color-primary-300: oklch(65.69% 0.1213 162.56);
+    --color-primary-400: oklch(61.01% 0.1256 162.28);
+    --color-primary-500: oklch(55.31% 0.1305 154.92);
+    --color-primary-600: oklch(49.35% 0.1314 149.62);
+    --color-primary-700: oklch(43.04% 0.1261 146.17);
+    --color-primary-800: oklch(36.29% 0.1132 144.12);
+    --color-primary-900: oklch(28.59% 0.0942 142.61);
+
+    --color-secondary-50: oklch(84.47% 0.0018 247.84);
+    --color-secondary-100: oklch(67.42% 0.0038 219.55);
+    --color-secondary-150: oklch(58.01% 0.0057 228.88);
+    --color-secondary-200: oklch(48.03% 0.0061 247.95);
+    --color-secondary-300: oklch(37.64% 0.0074 240.01);
+    --color-secondary-400: oklch(26.21% 0.0095 248.19);
+    --color-secondary-500: oklch(24.4% 0.0093 234.13);
+    --color-secondary-600: oklch(22.21% 0.0084 223.86);
+    --color-secondary-700: oklch(20.38% 0.0076 196.57);
+    --color-secondary-800: oklch(18.14% 0.0078 196.49);
+    --color-secondary-900: oklch(15.52% 0.0053 173.53);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--height-offset, 4.5rem);
+}
