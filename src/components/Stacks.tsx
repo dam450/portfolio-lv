@@ -1,15 +1,15 @@
 export const Stacks = () => {
   return (
-    <section className="py-18">
+    <section className="py-18 ">
       <div className="text-center mb-9">
-        <h2 className="text-4xl font-bold mb-8">Tecnologias</h2>
-        <p className="text-2xl">
+        <h2 className="text-4xl font-bold mb-8 content-show">Tecnologias</h2>
+        <p className="text-2xl content-show">
           Aqui está uma visão geral das ferramentas e tecnologias que utilizo
           para criar aplicações poderosas e escaláveis.
         </p>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4  *:border *:rounded-sm *:py-9">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4  *:border *:rounded-sm *:py-9 **:content-show">
         <div className="flex justify-center">
           {/* html  */}
           <svg

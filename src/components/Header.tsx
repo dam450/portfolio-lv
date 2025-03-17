@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <header className="bg-secondary-800 text-secondary-50 sticky top-0 p-6 drop-shadow-xl border-b-2 border-b-secondary-600">
+    <header className="bg-secondary-800 text-secondary-50 sticky top-0 p-6 drop-shadow-xl border-b-2 border-b-secondary-600 z-10">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
         <a href="#">
           <h1 className="font-black text-3xl">Luís Vinícius</h1>
