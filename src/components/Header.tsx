@@ -20,7 +20,7 @@ export const Header = () => {
         </nav>
 
         <a href="#contact">
-          <div className="border-2 px-4 py-2 rounded-full border-primary-500 text-primary-500 font-medium text-lg leading-none hover:bg-primary-500 hover:text-secondary-800 transition-colors duration-300">
+          <div className="border-2 px-4 py-2 rounded-full border-primary-400 text-primary-400 font-medium text-lg leading-none hover:bg-primary-400 hover:text-secondary-800 transition-colors duration-300">
             Contrate-me
           </div>
         </a>
